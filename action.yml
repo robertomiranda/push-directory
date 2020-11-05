@@ -40,6 +40,7 @@ runs:
     - ${{ inputs.destination-repository-username }}
     - ${{ inputs.target-branch }}
     - ${{ inputs.commit-message }}
+    - ${{ inputs.destination-directory }}
 branding:
   icon: 'git-commit'
   color: 'green'
